@@ -7,8 +7,10 @@ Operations in  Natural Language Processing(NLP) and Text Mining technique.
 
 @ Applications of NLP: 1.Sentiment Analysis  2.Chatbot  3.Speech Recognition 4.Machine Translation 
 
-Applications of NLP and Text Mining:1.Information Extraction 2.Spell Checking 3.Keyword Searching 4.Summarization 5.Advertisement Matching 6.Classification(Spam Filtering) 7.Question Answerning and others.....
+@Applications of NLP and Text Mining:1.Information Extraction 2.Spell Checking 3.Keyword Searching 4.Summarization 5.Advertisement Matching 6.Classification(Spam Filtering) 7.Question Answerning and others.....
+
 @Tasks of Natural Language Processing: 1.Tokenization 2.Stemming 3.Lemmatization 4.Part of Speech (POS) Tagging
                                        5.Named Entity Recognition 6.Chunking
+  
   *** when working with Text Mining that's time deal with "Stop Word Removal" step before the "Chunking" step.***
 
