@@ -14,3 +14,11 @@ Operations in  Natural Language Processing(NLP) and Text Mining technique.
   
   *** when working with Text Mining that's time deal with "Stop Word Removal" step before the "Chunking" step.***
 
+1.Tokenization:
+  Tokenization(word segmentation) is the task of chopping it up into pieces(smaller meaningful elements) called tokens.Tokens can be words, numbers, or punctuation marks.This process is done by using a tokenization algorithm.
+  
+  Sentence Tokenization is the process of tokenizing a text into sentences.NLTK provides a method called sent_tokenize to perform sentence-level tokenization. 
+  
+  Word Tokenization is the process of tokenizing sentences or text into words and
+punctuation.NLTK provides a method called word_tokenize ,which splits text using punctuation and non-
+alphabetic characters.
