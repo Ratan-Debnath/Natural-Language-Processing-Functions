@@ -22,3 +22,8 @@ Operations in  Natural Language Processing(NLP) and Text Mining technique.
   Word Tokenization is the process of tokenizing sentences or text into words and
 punctuation.NLTK provides a method called word_tokenize ,which splits text using punctuation and non-
 alphabetic characters.
+
+Key points of the NLP tokenization,
+Text into sentences tokenization
+Sentences into words tokenization
+Sentences using regular expressions tokenization.
