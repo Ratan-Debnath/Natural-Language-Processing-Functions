@@ -27,3 +27,9 @@ Key points of the NLP tokenization,
 Text into sentences tokenization
 Sentences into words tokenization
 Sentences using regular expressions tokenization.
+
+2.Stemming:
+Stemming is a process in which remove the end or the beginning of the word in hope of
+achieving its base form.As example, Form: Studies, studying. where, Suffix: -es, -ing and here, Stem: Studi, Study. Also, jumped and jumps may be reduced to jump , while jumpiness may be reduced to jumpi.
+
+NLTK provides,PorterStemmer , which is based on the Porter Stemming Algorithm.Other stemmers include SnowballStemmer and LancasterStemmer.
