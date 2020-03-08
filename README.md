@@ -33,3 +33,13 @@ Stemming is a process in which remove the end or the beginning of the word in ho
 achieving its base form.As example, Form: Studies, studying. where, Suffix: -es, -ing and here, Stem: Studi, Study. Also, jumped and jumps may be reduced to jump , while jumpiness may be reduced to jumpi.
 
 NLTK provides,PorterStemmer , which is based on the Porter Stemming Algorithm.Other stemmers include SnowballStemmer and LancasterStemmer.
+
+3.Lemmatization: Lemmatization is a process that uses vocabulary and morphological analysis of words to
+remove the inflected endings to achieve its base form (dictionary form), which is known as
+the lemma.
+Examples of lemmatization:
+-> rocks : rock
+-> corpora : corpus
+-> better : good
+
+NLTK using WordNetLemmatizer for lemmatization.
