@@ -43,3 +43,9 @@ Examples of lemmatization:
 -> better : good
 
 NLTK using WordNetLemmatizer for lemmatization.
+
+4.POS Tagging:The POS tagging is to assign labels for each token (a word in this case) with its
+respective grammatical component, parts of speech include nouns, verb, adverbs, adjectives, pronouns, conjunction and their sub-categories.
+
+Most of the POS tagging falls under Rule Base POS tagging, Stochastic POS tagging and Transformation based tagging.NLTK provides a function called pos_tag , to perform POS tagging of sentences, but this requires the sentence to be tokenized first.
+
