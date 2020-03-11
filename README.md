@@ -23,7 +23,7 @@ Operations in  Natural Language Processing(NLP) and Text Mining technique.
 punctuation.NLTK provides a method called word_tokenize ,which splits text using punctuation and non-
 alphabetic characters.
 
-Key points of the NLP tokenization,
+Key points of the NLP tokenization,.5.5
 Text into sentences tokenization
 Sentences into words tokenization
 Sentences using regular expressions tokenization.
@@ -49,3 +49,16 @@ respective grammatical component, parts of speech include nouns, verb, adverbs, 
 
 Most of the POS tagging falls under Rule Base POS tagging, Stochastic POS tagging and Transformation based tagging.NLTK provides a function called pos_tag , to perform POS tagging of sentences, but this requires the sentence to be tokenized first.
 
+5.Named Entity Recognition:Named entity recognition (NER), is the process of identifying entities such as Names,
+Locations, Dates, or Organizations that exist in an unstructured text sample.
+
+NLTK provides us with a method called ne_chunk to perform NER on a
+given text.As example, Mark and John are of type PERSON, Google and Yahoo are of type ORGANIZATION, and
+New York City is of type GPE.
+
+@@@@Text Mining  ###Stop Word Removal:Stop words are simply words that have very little meaning and are mostly used as part of the grammatical structure of a sentence. Words like “the”, “a”, “an”, “in”, etc. are considered stop-words.NLTK comes with the corpora stopwords which contains stop word lists for 16 different languages.
+
+6.Chunking:Chunking or shallow parsing is a process that extracts phrases from a text sample.{geeks for geeks define as Chunk extraction or partial parsing is a process of meaningful extracting short phrases from the sentence (tagged with Part-of-Speech).}
+
+As an example, the word “North America” can be extracted as a single phrase using chunking rather than two separate words “North” and “America” as tokenization does.We will define this using a regular expression rule:
+NP: {<DT>?<JJ>*<NN>} # NP
